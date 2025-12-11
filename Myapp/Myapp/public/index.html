@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My App - DynamoDB</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Submit Your Data</h1>
+
+  <form id="dataForm" enctype="multipart/form-data">
+    <input type="text" name="name" placeholder="Enter Name" required />
+    <input type="email" name="email" placeholder="Enter Email" required />
+    <input type="tel" name="phone" placeholder="Enter Phone Number" required />
+    <!-- <input type="file" name="file" /> -->
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <p id="message"></p>
+
+  <h2>Saved Contacts</h2>
+  <ul id="contactList"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
